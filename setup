@@ -34,21 +34,21 @@ echo "";
 (apt install figlet pv ncurses-utils binutils coreutils wget git tar patch -y) &> /dev/null;
 termux-wake-lock;
 if [ -e $PREFIX/share/figlet/Remo773.flf ]; then
-	echo -e "\e[1;34m[*] \033[32mRemo773.flf figlet font is present\033[0m";
+	echo -e "\e[1;34m[*] \033[32msananakther9740.flf figlet font is present\033[0m";
 	sleep 2
 else
-wget https://raw.githubusercontent.com/remo7777/REMO773/master/Remo773.flf &> /dev/null;
+wget https://raw.githubusercontent.com/sananakther9740/SANANAKTHER/master/sananakther9740.flf &> /dev/null;
 sleep 2
-cat Remo773.flf >> $PREFIX/share/figlet/Remo773.flf
+cat sananakther9740.flf >> $PREFIX/share/figlet/sananakther9740.flf
 sleep 2
-rm Remo773.flf
+rm sananakther9740.flf
 fi
 clear;
 echo "";
-echo -e "\033[33m$(figlet -f Remo773 "msf patch")\e[0m"
+echo -e "\033[33m$(figlet -f sananakther9740 "msf patch")\e[0m"
 echo -e "\e[1;32m
 +--------------------------------------*/
-Remo773 : (\e[33m1.12.2019\e[32m)
+sananakther9740 : (\e[33m1.12.2019\e[32m)
 1. database error permanent fix
 +--------------------------------------*/
 \033[0m";
